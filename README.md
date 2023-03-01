@@ -6,6 +6,7 @@
 
 - `pip3 install twilio`
 - `pip3 install dotenv-python`
+- `pip3 install beautifulsoup4`
 
 ### To set this up on your own machine clone the repo and create a .env file with the following infomation:
 
@@ -15,5 +16,7 @@
 - `TWILIO_NUMBER="<The Twilio number associateds with your account>"`
 
 #### Run the command `python3 roadconditions.py`
+
+The program will then prompt you to choose either highway 50 or highway 80, enter either "50" or "80" when prompted
 
 
